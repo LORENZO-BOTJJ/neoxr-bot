@@ -1,8 +1,8 @@
 const { Function, Scraper } = new (require('@neoxr/neoxr-js'))
 // Owner number
-global.owner = '6285221100126'
+global.owner = '6285894094841'
 // Owner name
-global.owner_name = 'Wildan Izzudin'
+global.owner_name = 'Zoe Bot'
 // Database name (Default: database)
 global.database = 'database'
 // Maximum upload file size limit (Default : 100 MB)
@@ -20,13 +20,13 @@ global.blocks = ['91', '92', '212']
 // Put target jid to forward friends story
 global.forwards = global.owner + '@c.us'
 // Get neoxr apikey by registering at https://api.neoxr.my.id
-global.Api = new (require('./neoxrApi'))(process.env.API_KEY)
+global.Api = new (require('./neoxrApi'))(process.env.1ZFsLm)
 // Timezone (Default : Asia/Jakarta)
 global.timezone = 'Asia/Jakarta'
 // Bot version
 global.version = '2.2.2',
 // Bot name
-global.botname = `© neoxr-bot v${global.version} (Public Bot)`
+global.botname = `© Zoebot v${global.version} (Public Bot)`
 // Footer text
 global.footer = 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɴᴇᴏxʀ ッ'
 // Scraper

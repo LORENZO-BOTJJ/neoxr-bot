@@ -20,7 +20,7 @@ global.blocks = ['91', '92', '212']
 // Put target jid to forward friends story
 global.forwards = global.owner + '@c.us'
 // Get neoxr apikey by registering at https://api.neoxr.my.id
-global.Api = new (require('./neoxrApi'))(process.env.1ZFsLm)
+global.Api = new (require('./neoxrApi'))(process.env.API_KEY)
 // Timezone (Default : Asia/Jakarta)
 global.timezone = 'Asia/Jakarta'
 // Bot version
